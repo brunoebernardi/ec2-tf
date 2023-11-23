@@ -20,3 +20,5 @@ This repository is based on EC2 terraform templates for deploying Windows and Un
 ## Getting Started
 
 To get started you can clone the git repository to a desired location in your local or remote computer:
+
+git clone git@github.com:brunoebernardi/ec2-tf.git
