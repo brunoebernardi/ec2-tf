@@ -26,7 +26,7 @@ resource "aws_instance" "windows" {
   subnet_id     = aws_subnet.subnet.id
 
   tags = {
-    Name = "Windows Server"
+    Name = "WINDOWS CUSTOM TAG"
 } 
 
 }
