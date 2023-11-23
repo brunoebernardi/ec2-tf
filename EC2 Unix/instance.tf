@@ -27,7 +27,7 @@ resource "aws_instance" "unix" {
   subnet_id     = aws_subnet.subnet.id
 
   tags = {
-    Name = "Ubuntu 20.04 LTS"
+    Name = "UNIX CUSTOM TAG"
 } 
 
 }
