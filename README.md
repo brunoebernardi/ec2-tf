@@ -1,4 +1,4 @@
-# Base repository for deploying instances on AWS using terraform. 
+# Base repository for deploying instances on AWS using terraform 
 
 
 
