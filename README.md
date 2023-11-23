@@ -4,7 +4,7 @@
 
 ## About The Project 
 
-This repository is based on EC2 terraform templates for deploying Windows and Unix VMs on AWS. Its main objective is to provide a simple and fast way of deploying instances on AWS for troubleshooting and generating test environments to approximate environments and carry out simulations. Most of the codebase is using HCL(Hashicorp Configuration Language).
+This repository is based on EC2 terraform templates for deploying Windows and Unix VMs on AWS. The main objective is to provide a simple and fast way of deploying instances on AWS for troubleshooting and generating test environments to approximate environments and carry out simulations. Most of the codebase is using HCL(Hashicorp Configuration Language).
 
 
 
