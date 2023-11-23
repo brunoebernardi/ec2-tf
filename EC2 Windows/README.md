@@ -5,7 +5,9 @@
 
 ssh-keygen -m PEM -t rsa -b 4096
 
-#### B. Point a reference of your pub key at "terraform.tfvars file". Remember to generate to a correct folder location and name, preventing overwrite of existent private keys. Also, point the VM AMI & AWS region.
+##### NOTE: Remember to generate to a correct folder location and name, preventing overwrite of existent private keys.
+
+#### B. Point a reference of your pub key at "terraform.tfvars file". Also, point the AMI & AWS region at this same file.
 
 #### C. Set your region & AWS credentials in "providers.tf file" and on your work directory (Example: /.aws/credentials)
 
