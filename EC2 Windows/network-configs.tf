@@ -13,7 +13,7 @@ resource "aws_vpc" "ec2-windows-vpc" {
 resource "aws_subnet" "subnet" {
  vpc_id     = aws_vpc.ec2-windows-vpc.id
  cidr_block = "10.0.1.0/24"
- availability_zone = "us-east-1a"
+ availability_zone = var.aws_region
  
  tags = {
    Name = "PrivateSubnet"
