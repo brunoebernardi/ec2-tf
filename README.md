@@ -15,6 +15,7 @@ This repository is based on EC2 terraform templates for deploying Windows and Un
 
 2. In order for Terraform to run operations on your behalf, you must install and configure the AWS CLI tool. Please refer [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) for instructions.
 
+3. Git should be installed on the local or remote computer which is used for cloning the repository as mentioned above. Please refer the git installation guide [here](https://github.com/git-guides/install-git).
 
 
 ## Getting Started
